@@ -1,0 +1,43 @@
+unit Services.Login;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Services.Base;
+
+type
+  TServiceLogin = class(TServicesBase)
+  private
+    { Private declarations }
+  public
+    procedure Login(const AUsername, APassword: String);
+  end;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+uses
+  Providers.Request;
+
+{$R *.dfm}
+
+{ TServiceLogin }
+
+procedure TServiceLogin.Login(const AUsername, APassword: String);
+var
+  LResponse: IResponse;
+begin
+  if ((AUsername.Trim.IsEmpty) or (APassword.Trim.IsEmpty)) then
+  begin
+    raise Exception.Create('Informe o usuário e senha.');
+  end;
+
+  LResponse := TRequest.New
+    .BaseURL('http://localhost:9001')
+    .Resource('login')
+    .AddBody()
+    .Post;
+end;
+
+end.

@@ -1,0 +1,12 @@
+inherited FrmHome: TFrmHome
+  inherited lytContent: TLayout
+    object retContent: TRectangle
+      Align = Contents
+      Fill.Color = xFFF1F3F6
+      Size.Width = 350.000000000000000000
+      Size.Height = 500.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+    end
+  end
+end

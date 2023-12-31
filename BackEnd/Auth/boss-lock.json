@@ -12,51 +12,51 @@
 		},
 		"github.com/hashload/handle-exception": {
 			"name": "handle-exception",
-			"version": "0.1.8",
-			"hash": "362736186bc6293dd9a716d7f7413455",
+			"version": "0.1.9",
+			"hash": "b7878eb4d418c67420daf8cc2e7f9dda",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
 		},
 		"github.com/hashload/horse": {
 			"name": "horse",
-			"version": "3.1.3",
-			"hash": "752c3b943782e4910cd0a3ac3beeb4ee",
+			"version": "3.1.5",
+			"hash": "3824f65f99e511ba73d3fdd2f6d16413",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
 		},
 		"github.com/hashload/horse-jwt": {
 			"name": "horse-jwt",
-			"version": "2.0.13",
-			"hash": "b6889d63cf81f0450de2b23562a8af48",
+			"version": "2.0.14",
+			"hash": "d7433d10c0fbc71649ee260ef70b8928",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
 		},
 		"github.com/hashload/jhonson": {
 			"name": "jhonson",
-			"version": "1.1.6",
-			"hash": "6408c0964998a945994d4bf29d2c88c5",
+			"version": "1.1.8",
+			"hash": "62d5763101381ad8aeec10773544b1dc",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
 		},
 		"github.com/paolo-rossi/delphi-jose-jwt": {
 			"name": "delphi-jose-jwt",
-			"version": "v3.2.0",
-			"hash": "eadfcb98abd01d919ed5be0d0b5cd5e7",
-			"artifacts": {},
-			"failed": false,
-			"changed": true
-		},
-		"https://github.com/paolo-rossi/delphi-jose-jwt": {
-			"name": "delphi-jose-jwt",
-			"version": "v3.2.0",
-			"hash": "eadfcb98abd01d919ed5be0d0b5cd5e7",
+			"version": "v3.3.0",
+			"hash": "87ac350d80a8ad45755deccd4320e1f1",
 			"artifacts": {},
 			"failed": false,
 			"changed": false
+		},
+		"https://github.com/paolo-rossi/delphi-jose-jwt": {
+			"name": "delphi-jose-jwt",
+			"version": "v3.3.0",
+			"hash": "87ac350d80a8ad45755deccd4320e1f1",
+			"artifacts": {},
+			"failed": false,
+			"changed": true
 		},
 		"https://github.com/viniciussanchez/bcrypt": {
 			"name": "bcrypt",

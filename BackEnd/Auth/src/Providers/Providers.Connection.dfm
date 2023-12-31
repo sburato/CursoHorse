@@ -1,5 +1,4 @@
 object ProvidersConnection: TProvidersConnection
-  OldCreateOrder = False
   Height = 270
   Width = 249
   object FDConnection: TFDConnection

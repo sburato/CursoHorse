@@ -1,0 +1,2 @@
+inherited FrmBaseView: TFrmBaseView
+end

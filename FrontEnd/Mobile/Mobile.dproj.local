@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/09 21:27:43.000.317,=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/18 20:15:03.000.565,=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/13 20:18:34.000.419,=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 12:34:21.000.651,=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 12:35:57.000.917,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\views\Views.Principal.fmx=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/12/30 12:35:57.000.917,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\views\Views.Principal.pas=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 12:36:11.000.157,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Mobile.dproj=C:\Users\Silvano\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/12/30 12:50:50.000.108,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Providers.Session.pas</Transaction>
+    <Transaction>2023/12/30 12:51:00.000.094,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\models\Providers.Models.Token.pas</Transaction>
+    <Transaction>2023/12/30 12:51:11.000.550,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\request\Providers.Request.pas</Transaction>
+    <Transaction>2023/12/30 12:51:11.000.519,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\request\Providers.Request.Intf.pas</Transaction>
+    <Transaction>2023/12/30 17:10:11.000.002,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 17:11:23.000.520,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.fmx=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Frames\Providers.Frames.Base.fmx</Transaction>
+    <Transaction>2023/12/30 17:11:23.000.520,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Frames\Providers.Frames.Base.pas</Transaction>
+    <Transaction>2023/12/30 17:12:43.000.139,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 17:13:08.000.479,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.fmx=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Frames\Providers.Frames.Base.View.fmx</Transaction>
+    <Transaction>2023/12/30 17:13:08.000.479,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Frames\Providers.Frames.Base.View.pas</Transaction>
+    <Transaction>2023/12/30 17:14:38.000.509,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/30 17:14:54.000.594,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.fmx=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Login.fmx</Transaction>
+    <Transaction>2023/12/30 17:14:54.000.594,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Login.pas</Transaction>
+    <Transaction>2023/12/31 12:28:46.000.707,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 12:29:11.000.894,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.dfm=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Services\Services.Base.dfm</Transaction>
+    <Transaction>2023/12/31 12:29:11.000.894,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Services\Services.Base.pas</Transaction>
+    <Transaction>2023/12/31 12:30:23.000.313,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 12:30:44.000.235,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.dfm=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Services\Services.Login.dfm</Transaction>
+    <Transaction>2023/12/31 12:30:44.000.235,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Services\Services.Login.pas</Transaction>
+    <Transaction>2023/12/31 15:05:21.000.785,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Providers\Providers.Constants.pas</Transaction>
+    <Transaction>2023/12/31 15:16:57.616,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 15:17:13.237,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Menu.fmx=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.fmx</Transaction>
+    <Transaction>2023/12/31 15:17:13.237,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Menu.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 15:44:47.518,=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 15:45:01.523,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Home.pas=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.pas</Transaction>
+    <Transaction>2023/12/31 15:45:01.523,C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\src\Views\Views.Home.fmx=C:\Dev\Cursos\curso-horse\FrontEnd\Mobile\Unit1.fmx</Transaction>
+  </Transactions>
+</BorlandProject>

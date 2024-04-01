@@ -2,15 +2,18 @@ unit Providers.Session;
 
 interface
 
-uses Providers.Models.Token;
+uses
+  Providers.Models.Token, Providers.Models.User;
 
 type
   TSession = class
   private
     FToken: TToken;
+    FUser: TUser;
     procedure Inicializar;
   public
     property Token: TToken read FToken write FToken;
+    property User: TUser read FUser write FUser;
     class function GetInstance: TSession;
     class function NewInstance: TObject; override;
     destructor Destroy; override;
@@ -26,6 +29,7 @@ implementation
 destructor TSession.Destroy;
 begin
   FToken.Free;
+  FUser.Free;
   inherited;
 end;
 
@@ -37,6 +41,7 @@ end;
 procedure TSession.Inicializar;
 begin
   FToken := TToken.Create;
+  FUser  := TUser.Create;
 end;
 
 class function TSession.NewInstance: TObject;

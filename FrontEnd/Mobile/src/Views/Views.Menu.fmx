@@ -7,7 +7,7 @@ inherited FrmMenu: TFrmMenu
       Size.Height = 50.000000000000000000
       Size.PlatformDefault = False
       Stroke.Kind = None
-      object btnMenu: TButton
+      object imgVoltar: TButton
         Align = Left
         Margins.Left = 3.000000000000000000
         Margins.Top = 1.000000000000000000
@@ -49,11 +49,13 @@ inherited FrmMenu: TFrmMenu
     end
     object MultiView: TMultiView
       BorderOptions.Visible = False
-      MasterButton = btnMenu
+      MasterButton = imgVoltar
+      Mode = Drawer
       NavigationPaneOptions.CollapsedWidth = 0.000000000000000000
       Size.Width = 250.000000000000000000
-      Size.Height = 50.000000000000000000
+      Size.Height = 450.000000000000000000
       Size.PlatformDefault = False
+      Visible = False
       TabOrder = 2
       object retContentMultiView: TRectangle
         Align = Contents
@@ -74,6 +76,7 @@ inherited FrmMenu: TFrmMenu
           Size.PlatformDefault = False
           StyleLookup = 'TransparentNormalButton'
           TabOrder = 3
+          OnClick = btnHomeClick
           object imgHome: TPath
             Align = Left
             Data.Path = {
@@ -123,6 +126,7 @@ inherited FrmMenu: TFrmMenu
           Size.PlatformDefault = False
           StyleLookup = 'TransparentNormalButton'
           TabOrder = 1
+          OnClick = btnPedidoClick
           object imgPedido: TPath
             Align = Left
             Data.Path = {
@@ -186,6 +190,7 @@ inherited FrmMenu: TFrmMenu
           Size.PlatformDefault = False
           StyleLookup = 'TransparentNormalButton'
           TabOrder = 0
+          OnClick = btnPerfilClick
           object imgPerfil: TPath
             Align = Left
             Data.Path = {

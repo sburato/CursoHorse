@@ -15,7 +15,17 @@ uses
   Services.Login in 'src\Services\Services.Login.pas' {ServiceLogin: TDataModule},
   Providers.Constants in 'src\Providers\Providers.Constants.pas',
   Views.Menu in 'src\Views\Views.Menu.pas' {FrmMenu: TFrame},
-  Views.Home in 'src\Views\Views.Home.pas' {FrmHome: TFrame};
+  Views.Home in 'src\Views\Views.Home.pas' {FrmHome: TFrame},
+  Views.Perfil in 'src\Views\Views.Perfil.pas' {FrmPerfil: TFrame},
+  Providers.Models.User in 'src\Providers\Models\Providers.Models.User.pas',
+  Services.Perfil in 'src\Services\Services.Perfil.pas' {ServicePerfil: TDataModule},
+  Views.Pedido in 'src\Views\Views.Pedido.pas' {FrmPedido: TFrame},
+  Services.Pedido in 'src\Services\Services.Pedido.pas' {ServicesPedido: TDataModule},
+  Providers.Frames.Pedido in 'src\Providers\Frames\Providers.Frames.Pedido.pas' {FramePedido: TFrame},
+  Providers.Aguarde in 'src\Providers\Aguarde\Providers.Aguarde.pas',
+  Providers.Aguarde.Frame in 'src\Providers\Aguarde\Providers.Aguarde.Frame.pas' {FrameAguarde: TFrame},
+  Views.Consulta.Cliente in 'src\Views\Views.Consulta.Cliente.pas' {FrmConsultaCliente: TFrame},
+  Services.Consulta.Cliente in 'src\Services\Services.Consulta.Cliente.pas' {ServiceConsultaCliente: TDataModule};
 
 {$R *.res}
 

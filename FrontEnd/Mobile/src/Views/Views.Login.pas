@@ -37,7 +37,7 @@ implementation
 {$R *.fmx}
 
 uses
-  Views.Menu;
+  Views.Menu, Providers.Aguarde;
 
 { TFrmLogin }
 
@@ -57,7 +57,7 @@ procedure TFrmLogin.GoToMenu;
 var
   LFrmMenu: TFrmMenu;
 begin
-  LFrmMenu := TFrmMenu.Create(lytContent);
+  LFrmMenu := TFrmMenu.Create(Self.Owner);
   LFrmMenu.Align := TAlignLayout.Contents;
   TLayout(Self.Owner).AddObject(LFrmMenu);
 end;
@@ -65,17 +65,24 @@ end;
 procedure TFrmLogin.btnEntrarClick(Sender: TObject);
 begin
   inherited;
-  try
-    FService.Login(edtUsuario.Text, edtSenha.Text);
-    edtUsuario.SetValue(String.Empty);
-    edtSenha.SetValue(String.Empty);
-    Self.GoToMenu();
-  except
-    on E: Exception do
-    begin
-      ShowMessage(E.Message);
+  TAguarde.Aguardar(procedure
+  begin
+    try
+
+      FService.Login(edtUsuario.Text, edtSenha.Text);
+      TThread.Synchronize(TThread.CurrentThread, procedure
+      begin
+        edtUsuario.SetValue(String.Empty);
+        edtSenha.SetValue(String.Empty);
+        Self.GoToMenu();
+      end);
+    except
+      on E: Exception do
+      begin
+        ShowMessage(E.Message);
+      end;
     end;
-  end;
+  end);
 end;
 
 end.

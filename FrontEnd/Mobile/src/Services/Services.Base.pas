@@ -3,14 +3,12 @@ unit Services.Base;
 interface
 
 uses
-  System.SysUtils, System.Classes;
+  System.SysUtils, System.Classes, Providers.Session;
 
 type
   TServicesBase = class(TDataModule)
-  private
-    { Private declarations }
   public
-    { Public declarations }
+    function Session: TSession;
   end;
 
 implementation
@@ -18,5 +16,12 @@ implementation
 {%CLASSGROUP 'FMX.Controls.TControl'}
 
 {$R *.dfm}
+
+{ TServicesBase }
+
+function TServicesBase.Session: TSession;
+begin
+  Result := TSession.GetInstance;
+end;
 
 end.

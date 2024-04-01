@@ -30,14 +30,14 @@ procedure TFrmPrincipal.FormActivate(Sender: TObject);
 var
   LFrmLogin: TFrmLogin;
 begin
- if (FActived) then
- begin
-   Exit;
- end;
- LFrmLogin := TFrmLogin.Create(lytContent);
- LFrmLogin.Align := TAlignLayout.Contents;
- lytContent.AddObject(LFrmLogin);
- FActived := True;
+  if (FActived) then
+  begin
+    Exit;
+  end;
+  LFrmLogin := TFrmLogin.Create(lytContent);
+  LFrmLogin.Align := TAlignLayout.Contents;
+  lytContent.AddObject(LFrmLogin);
+  FActived := True;
 end;
 
 end.
